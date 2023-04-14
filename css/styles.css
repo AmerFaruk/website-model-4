@@ -1,0 +1,90 @@
+/*BODY*/
+
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+/*****/
+/* NAVIGATION */
+.navigation {
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+}
+.nav-stick {
+    font-size: 26px;
+    font-family: dnd;
+    color: wheat;
+    
+}
+.nav-ref {
+    text-decoration: none;
+    color: wheat;
+}
+.nav-ref:visited {
+    color: wheat;
+}
+/**  MONTHLY  **/
+/*IMAGES BACKGROUND - Containers*/
+.first-part{
+    display: inline-block;
+    
+}
+.first-Image{
+    
+    width: 100%;
+    height: 100%;
+}
+.HW-1 {
+    
+    position: absolute;
+    top: 100px;
+    right: 75px;
+    width: 400px;
+    height: 200px;
+}
+
+.second-part{
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+}
+.second-Image{
+   width: 50%;
+   height: 100%;
+}
+
+.third-part {
+    display: inline-block;
+ 
+}
+.third-Image{
+    width: 100%;
+    height: 100%;
+}
+/*** FONTS ***/
+@font-face {
+    font-family: dnd;
+    src: url(sources/fonts/Grenze/Grenze-Regular.ttf);
+}
+/** HEADERS and PARAGRAPHS **/
+.header-day {
+    font-size: 56px;
+    text-align: right;
+    font-family: dnd;
+    color: wheat;
+}
+.day-paragraph{
+
+    font-size: 18px;
+    text-align: right;
+    font-family: dnd;
+    color: white;
+}
+/**/
+
+
+
